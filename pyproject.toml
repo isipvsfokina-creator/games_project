@@ -16,10 +16,4 @@ build-backend = "hatchling.build"
 packages = ["VD_games"]
 
 [project.scripts]
-VD-games = "VD_games.scripts.VD_main:main"
-
-[project.scripts]
-brain-games = "VD_games.scripts.VD_games:main"
-
-[project.scripts]
 brain-games = "VD_games.scripts.VD_games:main"
