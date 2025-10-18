@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "desc"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "prompt>=0.4.1",
+]
 
 [build-system]
 requires = ["hatchling"]
@@ -15,3 +17,9 @@ packages = ["VD_games"]
 
 [project.scripts]
 VD-games = "VD_games.scripts.VD_main:main"
+
+[project.scripts]
+brain-games = "VD_games.scripts.VD_games:main"
+
+[project.scripts]
+brain-games = "VD_games.scripts.VD_games:main"
