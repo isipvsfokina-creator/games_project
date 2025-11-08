@@ -15,3 +15,7 @@ packages = ["VD_games"]
 
 [project.scripts]
 VD-games = "VD_games.scripts.VD_main:main"
+VD-calc = "VD_games.scripts.brain_calc:main"
+VD-gcd = "VD_games.scripts.brain_gcd:main"
+VD-progression = "VD_games.scripts.vd_progression:main"
+VD-prime = "VD_games.scripts.vd_prime:main"
